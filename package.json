@@ -1,0 +1,21 @@
+{
+  "name": "time-tracker",
+  "version": "0.0.1",
+  "description": "Advanced time tracker.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaprior/time-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuaprior/time-tracker/issues"
+  },
+  "homepage": "https://github.com/joshuaprior/time-tracker#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
