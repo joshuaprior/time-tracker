@@ -1,0 +1,70 @@
+.tag {
+  display: inline-block;
+  border: solid 3px white;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: default;
+
+  &.clickable {
+    cursor: pointer;
+    user-select: none;
+
+    &:active {
+      &.green {
+        background-color: green;
+      }
+
+      &.red {
+        background-color: #ad1212;
+      }
+
+      &.blue {
+        background-color: #3434e8;
+      }
+
+      &.yellow {
+        background-color: #f1f10d;
+        color: #808059;
+      }
+
+      &.purple {
+        background-color: #ab13ab;
+      }
+
+      &.orange {
+        background-color: #ff8d10;
+      }
+    }
+  }
+
+  &.green {
+    border-color: green;
+    background-color: #6ea96e;
+  }
+
+  &.red {
+    border-color: #ad1212;
+    background-color: #b56a6a;
+  }
+
+  &.blue {
+    border-color: #3434e8;
+    background-color: #6767ab;
+  }
+
+  &.yellow {
+    border-color: #f1f10d;
+    background-color: #808059;
+  }
+
+  &.purple {
+    border-color: #ab13ab;
+    background-color: #9e779e;
+  }
+
+  &.orange {
+    border-color: #ff8d10;
+    background-color: #a58b5b;
+  }
+}
