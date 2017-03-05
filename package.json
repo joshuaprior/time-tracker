@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/joshuaprior/time-tracker#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "jp-time-tracker": "0.x.x"
   }
 }
