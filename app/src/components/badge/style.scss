@@ -1,0 +1,16 @@
+.badge {
+  background-color: red;
+  display: inline-block;
+  padding: 2px;
+  margin: 20px;
+  border-radius: 15px;
+  min-width: 30px;
+  text-align: center;
+  font-size: 14px;
+  cursor: default;
+
+  &.clickable {
+    cursor: pointer;
+    user-select: none;
+  }
+}
